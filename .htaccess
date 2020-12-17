@@ -1,0 +1,5 @@
+
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^xedu\.crism\.ro$
+RewriteRule ^/?$ "https\:\/\/xedu\.crism\.ro\/" [R=301,L]
+
